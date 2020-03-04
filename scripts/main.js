@@ -17,6 +17,7 @@ function setUserName() {
     localStorage.setItem('name', myName);
     myHeading.innerHTML = 'Great News, ' + myName + '!';
 }
+}
 if(!localStorage.getItem('name ')) {
     setUserName();
 } else {
