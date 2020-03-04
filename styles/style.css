@@ -1,12 +1,26 @@
 html {
     font-size: 11px;
     font-family: 'Oxanium', cursive;
+    background-color: #3FBF7F;
 }
 h1 {
 font-size: 70px;
 text-align: center;
+text-shadow: 3px 3px 5px white;
 }
 p {
+    font-size: 12px;
     line-height: 2;
     letter-spacing: 1px;
+}
+body {
+ width: 600px;
+ margin: 0 auto;
+ background-color: #3F7FBF;
+ padding: 0 20px 20px 20px;
+ border: 10px solid white;   
+}
+img {
+    display: block;
+    margin: 0 auto;
 }
